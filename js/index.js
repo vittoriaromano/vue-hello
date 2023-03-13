@@ -2,7 +2,7 @@
 
 const { createApp } = Vue
 
-  //constante url
+  //variabile url
   let imagine = 'https://picsum.photos/200'
 
   const vm = createApp({
@@ -10,11 +10,11 @@ const { createApp } = Vue
       return {
         //dati libreria
         message: ' VUE.JS ',
-        //mettiamo la constante imag nella libreria
+        //aggiungere la variabile  imag nella libreria
         imagine,
-        //PROVA INSERIMENTO LINK
-        //anchor: 'img',
-        //link:'https://picsum.photos/200'
+        centerClass: 'center',
+        marginClass: 'margin',
+        
       }
     },
   }).mount('#app');

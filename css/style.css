@@ -1,0 +1,16 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* vue.js class */
+
+.center{
+    text-align: center;
+}
+
+.margin{
+    margin: 22px auto;
+    display: block;
+}

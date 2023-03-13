@@ -1,12 +1,20 @@
 'use strict'
 
 const { createApp } = Vue
-    //option api
+
+  //constante url
+  let imagine = 'https://picsum.photos/200'
+
   const vm = createApp({
     data() {
       return {
-        //qui inseriamo i dati che voglio utilizzare
+        //dati libreria
         message: ' VUE.JS ',
+        //mettiamo la constante imag nella libreria
+        imagine,
+        //PROVA INSERIMENTO LINK
+        //anchor: 'img',
+        //link:'https://picsum.photos/200'
       }
     },
   }).mount('#app');
